@@ -18,9 +18,9 @@ public class BmiIndex {
 		
 		if(bodyMassIndex < 18.5) {
 			System.out.println("You are underweight!");
-		} else if(bodyMassIndex >= 18.5 || bodyMassIndex < 25) {
+		} else if(bodyMassIndex >= 18.5 && bodyMassIndex < 25) {
 			System.out.println("You are normal.");
-		} else if(bodyMassIndex >= 25 || bodyMassIndex < 30) {
+		} else if(bodyMassIndex >= 25 && bodyMassIndex < 30) {
 			System.out.println("You are overweight!");
 		} else {
 			System.out.println("Your are obese!!");
