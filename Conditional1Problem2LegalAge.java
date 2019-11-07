@@ -12,17 +12,18 @@ public class Conditional1Problem2LegalAge {
 		
 		input.close();
 		
-		if(age < 16) {
+		if(age < 16) 
 			System.out.println("You can't drive, " + name +".");
-		} else if(age < 18) {
-			System.out.println("You can't vote, " + name +".");
-		} else if(age < 25) {
-			System.out.println("You can't rent a car, " + name +".");
-		} else {
-			System.out.println("You can do anything that's legal, " + name +".");
-		}
 		
-
+		if(age < 18) 
+			System.out.println("You can't vote, " + name +".");
+		
+		if(age < 25) 
+			System.out.println("You can't rent a car, " + name +".");	
+		 
+		if (age >= 25)
+			System.out.println("You can do anything that's legal, " + name +".");
+		
 	}
 
 }
